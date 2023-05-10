@@ -10,4 +10,6 @@ canvas.height = 700;
 
 ctx.moveTo(50, 50);
 ctx.lineTo(150, 150);
+ctx.moveTo(250, 250);
+ctx.lineTo(350, 350);
 ctx.stroke();
