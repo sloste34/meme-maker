@@ -9,7 +9,13 @@ canvas.width = 800;
 canvas.height = 700;
 
 ctx.moveTo(50, 50);
-ctx.lineTo(150, 150);
-ctx.moveTo(250, 250);
-ctx.lineTo(350, 350);
+ctx.lineTo(250, 50);
+ctx.lineTo(250, 250);
+ctx.lineTo(50, 250);
+ctx.lineTo(50, 50);
 ctx.stroke();
+
+//가로선 : x 세로선 : y
+//moveTo = 브러쉬를 0,0에서 시작해서 숫자만큼 옮겨준다.
+//lineTo = 브러쉬가 위치한 곳에서 좌표만큼 라인을 그려준다. 브러쉬는 끝부분에 위치힌다.
+//stroke = 테두리에 색을 넣어준다
