@@ -14,6 +14,7 @@ ctx.lineTo(250, 250);
 ctx.lineTo(50, 250);
 ctx.lineTo(50, 50);
 ctx.stroke();
+ctx.fill();
 
 //가로선 : x 세로선 : y
 //moveTo = 브러쉬를 0,0에서 시작해서 숫자만큼 옮겨준다.
