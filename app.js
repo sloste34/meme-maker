@@ -14,6 +14,7 @@ ctx.lineTo(250, 250);
 ctx.lineTo(50, 250);
 ctx.lineTo(50, 50);
 ctx.fill();
+ctx.stroke();
 
 //가로선 : x 세로선 : y
 //moveTo = 선을 긋지 않으면서 연필을 종이의 다른 부분으로 움직인다. 브러쉬를 0,0에서 시작해서 숫자만큼 옮겨준다.
